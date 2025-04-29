@@ -1,0 +1,181 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text for contrast */
+}
+
+header {
+  background: linear-gradient(90deg, #1e3a8a, #1e40af); /* Darker gradient */
+  color: #fff;
+  padding: 1.5rem 0;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Darker shadow */
+}
+
+h1, h2 {
+  margin: 0;
+  font-weight: 600;
+  color: #e0e0e0; /* Light text */
+}
+
+main {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Event Handling Section */
+#event-handling {
+  margin-bottom: 2.5rem;
+  padding: 1rem;
+  background: #1e1e1e; /* Dark card background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Darker shadow */
+}
+
+#clickButton {
+  padding: 0.7rem 1.5rem;
+  background-color: #2563eb; /* Blue button */
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#clickButton:hover {
+  background-color: #1d4ed8; /* Darker blue on hover */
+  transform: scale(1.05);
+}
+
+#hoverBox {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 100px;
+  margin-top: 20px;
+  font-weight: bold;
+  background-color: #2d2d2d; /* Dark box background */
+  color: #e0e0e0; /* Light text */
+}
+
+#hoverBox:hover {
+  background-color: #374151; /* Slightly lighter on hover */
+  transform: scale(1.05);
+}
+
+/* Interactive Elements Section */
+#interactive-elements {
+  margin-bottom: 2.5rem;
+  padding: 1rem;
+  background: #1e1e1e; /* Dark card background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Darker shadow */
+}
+
+#colorChangeButton {
+  padding: 0.7rem 1.5rem;
+  background-color: #10b981; /* Green button */
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#colorChangeButton:hover {
+  background-color: #059669; /* Darker green on hover */
+  transform: scale(1.05);
+}
+
+.gallery {
+  display: flex;
+  gap: 15px;
+  margin-top: 1.5rem;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border: 3px solid #444; /* Dark border */
+  border-radius: 10px;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.15);
+  border-color: #2563eb; /* Blue border on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Darker shadow */
+}
+
+/* Form Validation Section */
+#form-validation {
+  margin-bottom: 2.5rem;
+  padding: 1rem;
+  background: #1e1e1e; /* Dark card background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Darker shadow */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+input {
+  padding: 0.7rem;
+  border: 1px solid #444; /* Dark border */
+  border-radius: 25px;
+  font-size: 1rem;
+  background-color: #2d2d2d; /* Dark input background */
+  color: #e0e0e0; /* Light text */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+  border-color: #2563eb; /* Blue border on focus */
+  outline: none;
+  box-shadow: 0 0 5px rgba(37, 99, 235, 0.5); /* Blue glow */
+}
+
+button[type="submit"] {
+  padding: 0.7rem 1.5rem;
+  background-color: #2563eb; /* Blue button */
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #1d4ed8; /* Darker blue on hover */
+  transform: scale(1.05);
+}
+
+#formFeedback {
+  color: #f87171; /* Red for error messages */
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1.5rem 0;
+  background: linear-gradient(90deg, #1e3a8a, #1e40af); /* Darker gradient */
+  color: #e0e0e0; /* Light text */
+  font-size: 1rem;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.5); /* Darker shadow */
+}
